@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ff-headings);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
