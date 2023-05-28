@@ -1,5 +1,5 @@
 :root {
-  --btn-text-col: hsl(257, 40%, 49%);
+  --bg-btn-text-col: hsl(257, 40%, 49%);
   --btn-bg-hover-col: hsl(300, 69%, 71%);
   
   --ff-headings: 'Poppins', sans-serif;
@@ -15,4 +15,18 @@
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.btn {
+  padding: 0.5rem 2.5rem;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px -10px #000;
+}
+.btn-light {
+  background-color: #fff;
+  color: var(--bg-btn-text-col);
+}
+.btn-dark {
+  background-color: var(--bg-btn-text-col);
+  color: #fff;
 }
