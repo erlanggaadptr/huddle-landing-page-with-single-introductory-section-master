@@ -18,7 +18,7 @@
 }
 
 .btn {
-  padding: 0.5rem 2.5rem;
+  padding: 0.75rem 3rem;
   border-radius: 50px;
   box-shadow: 0 10px 10px -10px #000;
 }
@@ -27,6 +27,6 @@
   color: var(--bg-btn-text-col);
 }
 .btn-dark {
-  background-color: var(--bg-btn-text-col);
+  background-color: var(--bg-bg-hover-col);
   color: #fff;
 }

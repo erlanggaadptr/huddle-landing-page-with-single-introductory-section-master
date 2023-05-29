@@ -7,6 +7,9 @@
 body {
   background-color: var(--bg-btn-text-col);
   background-image: url('../images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   font-family: var(--ff-body);
   color: #fff;
 }
@@ -31,9 +34,50 @@ button {
 }
 
 main {
-  padding: 2rem 1rem;
+  padding: 2rem 0;
   min-height: 100vh;
   max-width: 81.25rem;
   margin: 0 auto;
   justify-content: space-between;
+}
+
+main #logo-wrapper {
+  align-items: center;
+}
+
+main #hero-wrapper {
+  justify-content: space-between;
+}
+
+main #hero-wrapper #hero-desc-wrapper {
+  padding: 2rem;
+  padding-top: 3rem;
+}
+
+main #hero-wrapper #hero-desc-wrapper #hero-text-wrapper {
+  margin-bottom: 1.5rem;
+}
+
+main #hero-wrapper #hero-desc-wrapper #hero-text-wrapper #hero-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+main #hero-wrapper #hero-desc-wrapper #hero-button:hover {
+  background-color: var(--btn-bg-hover-col);
+  color: #fff;
+}
+
+main #social-wrapper {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+main #social-wrapper ul {
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+main #social-wrapper ul li a {
+  color: #fff;
 }
